@@ -1,2 +1,24 @@
 AI-Red-攻防指南.pdf
 pdf/
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local runtime data
+.chroma/
+.env
+.env.*
+
+# Editor / OS noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
