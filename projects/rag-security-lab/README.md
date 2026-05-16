@@ -31,6 +31,51 @@
 - OpenAI API
 - 任何你能稳定调用的聊天模型
 
+## 快速开始
+
+### 1. 安装依赖
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2. 选择一个 LLM 提供方式
+
+默认使用 `Ollama`，环境变量可选：
+
+```bash
+set OLLAMA_MODEL=llama3.1:8b
+set RAG_LLM_PROVIDER=ollama
+```
+
+如果你想用 OpenAI：
+
+```bash
+set RAG_LLM_PROVIDER=openai
+set OPENAI_API_KEY=your_key
+set OPENAI_MODEL=gpt-4o-mini
+```
+
+### 3. 先导入干净文档
+
+```bash
+python app/ingest.py --dataset clean --reset
+```
+
+### 4. 跑第一轮查询
+
+```bash
+python app/query.py "如何重置密码？"
+```
+
+### 5. 再导入全部文档
+
+```bash
+python app/ingest.py --dataset all --reset
+```
+
+然后重新运行相同问题，对比结果变化。
+
 ## 目录说明
 
 - `app/`
