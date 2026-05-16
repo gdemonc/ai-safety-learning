@@ -17,6 +17,11 @@ env/
 .env
 .env.*
 
+# Locally installed skills
+langchain-rag/
+security-best-practices/
+security-threat-model/
+
 # Editor / OS noise
 .vscode/
 .idea/
