@@ -15,14 +15,19 @@
 ## 练习项目
 
 - `projects/rag-security-lab/`：第一套本地练习项目，聚焦 RAG 攻防与基础防守
+- `projects/agent-security-lab/`：单 Agent 安全实验室，聚焦工具调用、目标偏移与审计
+- `projects/agent-memory-lab/`：记忆安全实验室，聚焦长期记忆与投毒风险
+- `projects/mcp-security-lab/`：MCP / 工具安全实验室，聚焦路径、权限与描述信任
+- `projects/threat-modeling-workbench/`：威胁建模工作台，聚焦资产、边界与攻击面整理
 
 ## 建议阅读顺序
 
 1. 先读 `AI-Red-全书总结.md`
 2. 再读 `AI-Red-逐章详细讲解.md`
 3. 再读 `AI-安全练习路线.md`
-4. 进入 `projects/rag-security-lab/` 开始第一套实验
-5. 对照原始 PDF 做章节回看和补充标注
+4. 先做 `projects/rag-security-lab/`
+5. 再按路线进入 Agent、记忆、MCP 和威胁建模项目
+6. 对照原始 PDF 做章节回看和补充标注
 
 ## 后续可继续补充
 

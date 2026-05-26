@@ -33,7 +33,7 @@
 
 ### 阶段 2：单 Agent 安全
 
-建议做第二个项目：`agent-security-lab`。
+建议做第二个项目：`projects/agent-security-lab`。
 
 这一阶段重点练：
 
@@ -57,7 +57,7 @@
 
 ### 阶段 3：记忆安全
 
-可以单独扩展成 `agent-memory-lab`。
+可以单独扩展成 `projects/agent-memory-lab`。
 
 这一阶段重点练：
 
@@ -74,7 +74,7 @@
 
 ### 阶段 4：MCP / 工具安全
 
-可以做 `mcp-security-lab`。
+可以做 `projects/mcp-security-lab`。
 
 这一阶段重点练：
 
@@ -91,7 +91,7 @@
 
 ### 阶段 5：综合威胁建模
 
-最后再做一个单独的文档型项目：
+最后再做一个单独的文档型项目：`projects/threat-modeling-workbench`。
 
 - 选一个开源 AI 项目
 - 输出架构图
@@ -141,5 +141,9 @@
 现在可以直接进入：
 
 - `projects/rag-security-lab/README.md`
+- `projects/agent-security-lab/README.md`
+- `projects/agent-memory-lab/README.md`
+- `projects/mcp-security-lab/README.md`
+- `projects/threat-modeling-workbench/README.md`
 
-这是第一套已经搭好的练习骨架。
+这些是当前已经搭好的练习骨架。
